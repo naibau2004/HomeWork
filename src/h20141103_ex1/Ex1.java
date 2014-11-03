@@ -2,7 +2,7 @@ package h20141103_ex1;
 
 public class Ex1
 {
-	public static String [] intChangeFourString ( int x )		//ミよ猭琵计锣4计﹃
+	public static String [] intChangeFourString ( int x )	//ミよ猭琵计锣4计﹃
 	{
 		if ( x < 10 )											//块计计
 		{
@@ -18,8 +18,7 @@ public class Ex1
 			tempArray[3] = d ;									//ㄏノ皚┯钡计﹃
 			
 			return tempArray ;									//肚计皚
-			
-			
+					
 		}else if ( (x >= 10) && (x <100) )						//块计计
 		{
 			String []  tempArray = new String [4] ;
@@ -112,7 +111,6 @@ public class Ex1
 		}
 		
 		return arrayFilter ;									//盢程沧挡狦肚
-
 	}
 
 	public static void main ( String [] args )
@@ -122,5 +120,4 @@ public class Ex1
 			System.out.println ( item ) ;
 		}
 	}
-	
 }

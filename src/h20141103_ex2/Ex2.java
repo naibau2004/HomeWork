@@ -19,7 +19,6 @@ public class Ex2
 			
 			return tempArray ;									//肚计皚
 			
-			
 		}else if ( (x >= 10) && (x <100) )						//块计计
 		{
 			String []  tempArray = new String [4] ;				//ミ皚ノㄓ┯钡κ计计
@@ -112,7 +111,6 @@ public class Ex2
 		}
 		
 		return arrayFilter ;									//盢程沧挡狦肚
-
 	}
 
 	public static String[] newArray ()							//絤策2よ猭よ猭穦肚絤策1┮⊿Τ计皚
@@ -141,7 +139,6 @@ public class Ex2
 				counter = counter + 1 ;			
 			}
 		}
-		
 		return newArray ;
 	}
 				
@@ -187,9 +184,9 @@ public class Ex2
 			System.exit(0) ;
 		}
 		
-		int tempX = Integer.parseInt( args[1] ) ;
-		int tempY = Integer.parseInt( args[2] ) ;
-		int total = tempX + tempY ; 
+		int tempArg1 = Integer.parseInt( args[1] ) ;
+		int tempArg2 = Integer.parseInt( args[2] ) ;
+		int total = tempArg1 + tempArg2 ; 
 		
 		if ( ! (total <=4) )
 		{
@@ -197,15 +194,14 @@ public class Ex2
 			System.exit(0) ;
 		}
 		
-		String [] sampleArray = Ex2.newArray() ;
+		String [] sampleArray = newArray() ;
 		String userNum1 = args[0].substring(0,1) ;
 		String userNum2 = args[0].substring(1,2) ;
 		String userNum3 = args[0].substring(2,3) ;
 		String userNum4 = args[0].substring(3,4) ;
 		int userA = Integer.parseInt( args[1] ) ;
 		int userB = Integer.parseInt( args[2] ) ;
-
-		
+	
 		for ( String arrayNum : sampleArray )
 		{
 			String arrayNum1 = arrayNum.substring(0,1) ;
