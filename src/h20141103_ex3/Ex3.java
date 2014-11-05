@@ -1,4 +1,4 @@
-package testHomework;
+package h20141103_ex3;
 
 public class Ex3 
 {
@@ -64,3 +64,4 @@ public class Ex3
 			}
 		}
 }
+
