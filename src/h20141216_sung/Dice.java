@@ -29,7 +29,6 @@ public class Dice {
         return (int)( 1 + Math.random() * faceNum) ;
     }
     
-    
     public static void main(String[] args) {
     	//建立三個骰子物件，骰子面數自訂
         Dice d1 = new Dice(2);
