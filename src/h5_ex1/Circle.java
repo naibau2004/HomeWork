@@ -2,16 +2,23 @@ package h5_ex1;
 
 public class Circle extends Geometry {
 
-	private int Diameter ;
+	private double diameter ;
+	private int x ;
+	private int y ;
+	
 	private double area ;
-	public Circle ( int Diameter ){
+	public Circle ( double diameter , int x ){
 		
-		this.Diameter = Diameter ;
+		this.diameter = diameter ;
+		this.x = x ;	
 	}
 	
 	public double getArea (){
-		this.area = this.Diameter * Math.PI ;
-		
+		this.area = this.diameter * Math.PI ;	
 		return this.area ;
+	}
+	
+	public String getCoordinate (){
+		return "(" + x + "," + y + ")" ;
 	}
 }
